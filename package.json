@@ -1,0 +1,37 @@
+{
+  "name": "clash-node-collector",
+  "version": "1.0.0",
+  "description": "本地收集公开代理订阅源，支持 Base64 / URI / Clash YAML，按 IP+端口去重，输出标准 Clash 订阅",
+  "type": "module",
+  "bin": {
+    "clash-node-collector": "./collect.js"
+  },
+  "scripts": {
+    "start": "node collect.js",
+    "collect": "node collect.js"
+  },
+  "keywords": [
+    "clash",
+    "mihomo",
+    "v2ray",
+    "subscription",
+    "proxy",
+    "collector"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fishsub/clash-node-collector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fishsub/clash-node-collector/issues"
+  },
+  "homepage": "https://github.com/fishsub/clash-node-collector#readme"
+}

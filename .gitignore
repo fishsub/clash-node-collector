@@ -1,0 +1,9 @@
+node_modules/
+output/
+*.log
+.DS_Store
+.env
+.idea/
+.vscode/
+*.yaml
+!example.clash.yaml
